@@ -16,6 +16,7 @@ p {
   padding-bottom: 10px;
   padding-top: 10px;
   font-size: 20px;
+  font-weight: 550;
 }
 
 .white {
@@ -102,20 +103,33 @@ p {
   margin-left: 5px;
 }
 
+.margin {
+  margin-bottom: 25px;
+}
+#footer-bg {
+  background-color: #fabb6e;
+  height: 100px;
+  margin: 0px;
+}
 .border {
   border-left: 5px solid;
-  border-image: linear-gradient(#ffb997, #f67e7d);
+  border-image: linear-gradient(#ffb997, #fabb6e);
   border-image-slice: 1;
 }
 
 .button {
   text-decoration: none;
   color: #0b032d;
-  background-image: linear-gradient(#f67e7d, #ffb997);
+  background-image: linear-gradient(#fabb6e, #ffb997);
   padding: 10px 40px;
   border-radius: 5px;
 }
 
+#left-image {
+  width: 400px;
+  float: left;
+  margin-top: -20px;
+}
 .center {
   text-align: center;
 }
