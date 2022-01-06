@@ -23,12 +23,43 @@ p {
 }
 
 .orange {
-  color: orange;
+  color: #fabb6e;
 }
 
-.first-image {
+.text {
+  text-align: left;
+}
+
+.targetleft {
+  width: 60%;
+  padding: 10px;
+  margin-left: 15%;
+  margin-top: 5%;
+}
+
+.targetright {
+  width: 60%;
+  padding: 10px;
+  margin-right: 15%;
+  margin-top: 5%;
+}
+
+.right-image {
   width: 300px;
   float: right;
+  padding-top: 40px;
+}
+
+#right-image {
+  width: 500px;
+  float: right;
+  padding-top: 40px;
+  margin-top: 50px;
+}
+
+.left-image {
+  width: 400px;
+  float: left;
   padding-top: 40px;
 }
 
