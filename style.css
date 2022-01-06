@@ -1,0 +1,90 @@
+body {
+  margin-left: 200px;
+  margin-right: 200px;
+  font-family: "Roboto", sans-serif;
+  background-color: #000000;
+}
+
+h1 {
+  font-size: 50px;
+  font-family: "Roboto Condensed", sans-serif;
+  padding-left: 10px;
+}
+
+p {
+  text-align: justify;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-size: 20px;
+}
+
+.white {
+  color: white;
+}
+
+.orange {
+  color: orange;
+}
+
+.first-image {
+  width: 300px;
+  float: right;
+  padding-top: 40px;
+}
+
+.small-image {
+  width: 150px;
+}
+
+.flex {
+  display: flex;
+}
+
+.goals {
+  width: 33%;
+  padding: 10px;
+}
+
+.width {
+  width: 100%;
+}
+
+.box1 {
+  background-color: #fabb6e;
+  padding: 5px;
+  border-radius: 15px;
+  margin-right: 5px;
+}
+
+.box2 {
+  background-color: #a1fa6e;
+  padding: 5px;
+  border-radius: 15px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.box3 {
+  background-color: #6efaf3;
+  padding: 5px;
+  border-radius: 15px;
+  margin-left: 5px;
+}
+
+.border {
+  border-left: 5px solid;
+  border-image: linear-gradient(#ffb997, #f67e7d);
+  border-image-slice: 1;
+}
+
+.button {
+  text-decoration: none;
+  color: #0b032d;
+  background-image: linear-gradient(#f67e7d, #ffb997);
+  padding: 10px 40px;
+  border-radius: 5px;
+}
+
+.center {
+  text-align: center;
+}
